@@ -1,0 +1,195 @@
+@charset "UTF-8";
+body{
+    overflow-x: hidden;
+    margin: 0px;
+}
+img{
+    width: 100%;
+}
+header img{
+    width: 24px;
+    padding: 0px;
+    text-align: center;
+    display: flex;
+    margin-right: 45px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+}
+.fantasma{
+    size: 100px;
+}
+main{
+    text-align: center;
+    margin: auto;
+    max-width: 1366px;
+    min-width: 320px;
+}
+main > h1{
+    font-size: 50px;
+}
+section{
+    text-align: left;
+    font-size: 20px;
+    margin: 25px;
+    padding: 15px;
+    text-indent: 20px;
+}
+section#biografia > img{
+    width: 500px;
+    border-radius: 120px;
+    
+}
+section#biografia > p{
+    width: 500px;
+    border-radius: 120px;
+    text-align: left;
+    display: inline-block;
+    vertical-align: top;
+    margin: 15px;
+    margin-left: 30px;
+}
+section#adicionais{
+    background-color: black;
+    margin: 40px 0px 0px 0px;
+    display: flex;
+    align-items: center;
+    padding-left: 100px;
+}
+section#adicionais > p{
+    text-align: left;
+    color: rgb(255, 255, 255);
+    vertical-align: top;
+    font-size: 20px;
+    width: 500px;
+    margin-left: 30px;
+    max-width: 1366px;
+}
+section#livros{
+    background-color: rgb(222, 255, 251);
+    margin: 0px;
+}
+nav{
+    background-color: black;
+    text-align: center;
+    display: flex;
+    padding: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;  
+    margin: auto;
+}
+nav > a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin: 20px 20px 20px 30px;
+    
+}
+nav > a:hover{
+    color: pink;
+}
+footer{
+    background-color: black;
+    color: lightgray;
+    text-align: center;
+    padding: 10px;
+}
+footer > a{
+    color: rgb(156, 156, 156);
+    text-decoration: none;
+}
+footer > a:hover{
+    text-decoration: underline;
+}
+section.presents{
+    display: flex;
+    align-items: center;
+    border-radius: 80px 80px 0px 0px;
+    margin: 0px;
+}
+section.presents > p{
+    font-size: 23px;
+}
+img.retrato{
+    width: 300px;
+    border-radius: 50%;
+    margin-right: 30px;
+}
+a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:hover{
+    font-weight: bold;
+    color: rgb(161, 30, 54);
+}
+h2{
+    font-size: 35px;
+    margin-bottom: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.retrato:hover{
+    transform: scale(1.1);
+    transition: .2s;
+}
+::-webkit-scrollbar{
+    width: 0px;
+}
+.gih{
+    display: flex;
+    align-items: center;
+    background-image: linear-gradient(to top,rgba(99, 18, 56, 0.253) 7%, white) ;
+    border-radius: 80px 80px 0px 0px;
+    margin: 0px;
+    font-size: 23px;
+}
+.mike{
+    display: flex;
+    align-items: center;
+    background-image: linear-gradient(to top,rgba(10, 158, 35, 0.253) 7%, white);
+    border-radius: 80px 80px 0px 0px;
+    margin: 0px;
+    font-size: 23px;
+}
+.sula{
+    display: flex;
+    align-items: center;
+    border-radius: 80px 80px 0px 0px;
+    margin: 0px;
+    font-size: 23px;
+    background-image: linear-gradient(to top,rgba(49, 30, 155, 0.253) 7%, white) ;
+}
+.vitinho{
+    display: flex;
+    align-items: center;
+    border-radius: 80px 80px 0px 0px;
+    margin: 0px;
+    font-size: 23px;
+    background-image: linear-gradient(to top,rgba(5, 151, 120, 0.253) 7%, white) ;
+}
+.gui{
+    display: flex;
+    align-items: center;
+    border-radius: 80px 80px 0px 0px;
+    margin: 0px;
+    font-size: 23px;
+    background-image: linear-gradient(to top,rgba(206, 123, 14, 0.253) 7%, white) ;
+}
+.marquinho{
+    display: flex;
+    align-items: center;
+    border-radius: 80px 80px 0px 0px;
+    margin: 0px;
+    font-size: 23px;
+    background-image: linear-gradient(to top,rgba(22, 12, 105, 0.253) 7%, white) ;
+}
+img:hover{
+    transform: scale(1.03);
+    transition: 2s;
+}
+.overlay{
+    margin-top: 11px;
+}
